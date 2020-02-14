@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"os"
-	"tutorial/wc"
+	"tutorial/pkg/wc"
 )
 
 func countFromFiles(filename string, counterChan chan<- *wc.Counter) {
@@ -58,4 +58,3 @@ func main() {
 	cl := <-listCounter
 	fmt.Print(cl)
 }
-

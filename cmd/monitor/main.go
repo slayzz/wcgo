@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 	"sync"
-	"tutorial/wc"
+	"tutorial/pkg/wc"
 )
 
 func main() {
