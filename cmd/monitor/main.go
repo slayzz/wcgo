@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
+	"github.com/slayzz/wcgo/pkg/wc"
 	"os"
 	"sync"
-	"tutorial/pkg/wc"
 )
 
 func main() {

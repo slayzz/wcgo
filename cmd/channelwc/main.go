@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
+	"github.com/slayzz/wcgo/pkg/wc"
 	"os"
-	"tutorial/pkg/wc"
 )
 
 func countFromFiles(filename string, counterChan chan<- *wc.Counter) {
